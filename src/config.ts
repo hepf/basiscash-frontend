@@ -6,17 +6,17 @@ const configurations: {[env: string]: Configuration} = {
   development: {
     chainId: ChainId.ROPSTEN,
     etherscanUrl: 'https://ropsten.etherscan.io',
-    defaultProvider: 'wss://ropsten.infura.io/ws/v3/d3bcb3c54e8c49a7bd1a9b6773e65bbe',
+    defaultProvider: 'wss://ropsten.infura.io/ws/v3/ad252282d11741ca93da93fe61d63b78',
     deployments: require('./basis-cash/deployments/deployments.ropsten.json'),
     externalTokens: {
-      DAI: ['0xc2118d4d90b274016cb7a54c03ef52e6c537d957', 18],
-      YFI: ['0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e', 18],
-      SUSD: ['0x57Ab1E02fEE23774580C119740129eAC7081e9D3', 18],
-      USDC: ['0x0d9c8723b343a8368bebe0b5e89273ff8d712e3c', 6],
-      USDT: ['0x516de3a7a567d81737e3a46ec4ff9cfd1fcb0136', 6],
+      DAI: ['0x8019C042131d11a5e8a400631Db92b7137d9aBe4', 18],
+      YFI: ['0xD07f509C60600e4971E3B0dDcB0B0c3eC51E3C0D', 18],
+      SUSD: ['0x6192Fb58cd37e240996F266cd1A3c559DE3275ce', 18],
+      USDC: ['0xB0252c99C1Be92C2B17607e6518871dFF084441E', 6],
+      USDT: ['0xE28Eb10B2AEF8922Bb0E5a5301425F788C76B05C', 6],
       // TODO: replace with real address
-      'BAC_DAI-UNI-LPv2': ['0xdc05b286a75ecbb545a6d3cd2a1c864c76dcbe6a', 18],
-      'BAS_DAI-UNI-LPv2': ['0x76332e3ec7588fbbbd1734c9c8b9a0199a468c67', 18],
+      'BAC_DAI-UNI-LPv2': ['0x08964Ff06115A58722EB066971Bca4dBA095fb3a', 18],
+      'BAS_DAI-UNI-LPv2': ['0x870AC8B5C3AA902c99D1677698cdee17646e1fb6', 18],
     },
   },
   production: {
@@ -35,17 +35,17 @@ const configurations: {[env: string]: Configuration} = {
       'BAS_DAI-UNI-LPv2': ['0x6B175474E89094C44Da98b954EedeAC495271d0F', 18], */
       chainId: ChainId.ROPSTEN,
       etherscanUrl: 'https://ropsten.etherscan.io',
-      defaultProvider: 'wss://ropsten.infura.io/ws/v3/d3bcb3c54e8c49a7bd1a9b6773e65bbe',
+      defaultProvider: 'wss://ropsten.infura.io/ws/v3/ad252282d11741ca93da93fe61d63b78',
       deployments: require('./basis-cash/deployments/deployments.ropsten.json'),
       externalTokens: {
-      DAI: ['0xc2118d4d90b274016cb7a54c03ef52e6c537d957', 18],
-      YFI: ['0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e', 18],
-      SUSD: ['0x57Ab1E02fEE23774580C119740129eAC7081e9D3', 18],
-      USDC: ['0x0d9c8723b343a8368bebe0b5e89273ff8d712e3c', 6],
-      USDT: ['0x516de3a7a567d81737e3a46ec4ff9cfd1fcb0136', 6],
-      // TODO: replace with real address
-      'BAC_DAI-UNI-LPv2': ['0xdc05b286a75ecbb545a6d3cd2a1c864c76dcbe6a', 18],
-      'BAS_DAI-UNI-LPv2': ['0x76332e3ec7588fbbbd1734c9c8b9a0199a468c67', 18],
+        DAI: ['0x8019C042131d11a5e8a400631Db92b7137d9aBe4', 18],
+        YFI: ['0xD07f509C60600e4971E3B0dDcB0B0c3eC51E3C0D', 18],
+        SUSD: ['0x6192Fb58cd37e240996F266cd1A3c559DE3275ce', 18],
+        USDC: ['0xB0252c99C1Be92C2B17607e6518871dFF084441E', 6],
+        USDT: ['0xE28Eb10B2AEF8922Bb0E5a5301425F788C76B05C', 6],
+        // TODO: replace with real address
+        'BAC_DAI-UNI-LPv2': ['0x08964Ff06115A58722EB066971Bca4dBA095fb3a', 18],
+        'BAS_DAI-UNI-LPv2': ['0x870AC8B5C3AA902c99D1677698cdee17646e1fb6', 18],
     },
   },
 }
